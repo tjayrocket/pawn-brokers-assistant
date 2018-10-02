@@ -1,26 +1,24 @@
-// 'use strict';
+const path = require("path");
 
-// const webpack = require('webpack');
-// const path = require('path');
-
-// const BUILD_DIR = path.resolve(__dirname, 'src/client/public');
-// const APP_DIR = path.resolve(__dirname, 'src/client/app');
-
-// const config = {
-//   entry: APP_DIR + '/index.jsx',
-//   output: {
-//     path: BUILD_DIR,
-//     filename: 'bundle.js'
-//   }, 
-//   module: {
-//     loaders: [
-//       {
-//         test: /\.jsx?/,
-//         include: APP_DIR,
-//         loader: 'babel-loader'
-//       }
-//     ]
-//   }
-// };
-
-// module.exports = config;
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.join(__dirname, "/dist"),
+    filename: "index_bundle.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        },
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+  }
+};
