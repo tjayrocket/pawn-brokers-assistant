@@ -1,6 +1,8 @@
 # pawn-brokers-assistant
 React Powered application for WA State Pawn Brokers.  
 
+Development Log can be found [here](https://github.com/tjayrocket/pawn-brokers-assistant/blob/master/dev-log.md)...
+
 Tools:  
 
 1) Loan Calculator - for predicting future rate increases and reporting purposes.  
