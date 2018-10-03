@@ -8,7 +8,7 @@ p{
 
 #topBar{
   background-color: #3E606F;
-  height: 100px;
+  height: 80px;
   text-align: center;
 }
 
@@ -16,7 +16,10 @@ p{
   font-family: 'Changa One', cursive;
   font-size: 5em;
 }
+
 #main{
+  max-width: 960px;
+  /* background-color: #3E606F; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -35,18 +38,44 @@ p{
 }
 
 .button{
-  width: 100px;
+  width: 192px;
   height: 50px;
-  background-color:#3E606F;
-  color: #D1DBBD;
+  background-color:#D1DBBD;
+  color: #3E606F;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
   border: none;
+  -webkit-transition: color .2s, background-color .2s; /* Safari */
+  transition: color .2s, background-color .2s;
 }
 
 .button:hover{
-  background-color:#193441;
+  background-color:#3E606F;
+  color: #D1DBBD;
 }
 
 .baseText{
   color: #D1DBBD;
 }
+
+.loanDiv{
+  display: inline-block;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border: solid 10px #3E606F;
+  border-radius: 150px;
+}
+
+.loanText{
+  font-size: 3em;
+  padding-top: 30%;
+}
+
+/* Color base
+darkest: #193441
+dark: #3E606F
+middle: #91AA9D
+light: #D1DBBD
+lightest: #FCFFF5 */
