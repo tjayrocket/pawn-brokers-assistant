@@ -1,4 +1,4 @@
-##03OCT2018 - 0800:  
+## 03OCT2018 - 0800:  
 
   Reconfiguring webpack for early dev ops.  
   Music: The News.  
@@ -7,7 +7,7 @@
 
   Still, it reads based off the HTML file in src and once I get that up and running, I will add HTMLWebpackLoader later.
 
-##02OCT2018 - 1630:  
+## 02OCT2018 - 1630:  
 
   Integrating the new boilerplate with travis and introducing testing suite.  
   Music: The Ramones.  
