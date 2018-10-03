@@ -8,7 +8,8 @@ class TopBar extends React.Component {
 
   render() {
     return (
-      <div id="top-bar">
+      <div id="topBar">
+        <p id="appName" className="baseText">PAWN BROKER ASSISTANT</p>
       </div>
     );
   }
@@ -16,3 +17,5 @@ class TopBar extends React.Component {
 }
 
 export default TopBar;
+
+//This is the Top bar of the application - fixed in place. Just used for the title.

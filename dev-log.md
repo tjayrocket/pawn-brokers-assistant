@@ -1,5 +1,12 @@
 ## 03OCT2018 - 0800:  
 
+  Upgraded to Version 0.2.0  
+  Music: Joe Rogan Podcast  
+
+  It's safe to say that since react is compiling and webpack is building and populating, I have hit version 0.2.0 The next step is to add the loan functionality and eventually layawy as well.  
+
+## 03OCT2018 - 0800:  
+
   Reconfiguring webpack for early dev ops.  
   Music: The News.  
 

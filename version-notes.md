@@ -1,8 +1,12 @@
+Pawn Broker Assistant - Version 0.2.0:  
+
+Base functionality of Webpack, React and Babel incorporated.
+
 Pawn Broker Assistant - Version 0.1.01:  
 
 Slowly introducing fixes to old React Boiler Plate. Eliminating some plugins for development sake.  
 
-More notes in source code fo ease of understanding.
+More notes in source code for ease of understanding.
 
 Pawn Broker Assistant - Version 0.1.0:  
 
