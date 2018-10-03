@@ -1,3 +1,10 @@
+##02OCT2018 - 1630:  
+
+  Integrating the new boilerplate with travis and introducing testing suite.  
+  Music: The Ramones.
+
+  My Boilerplate aged badly - integrating Webpack 4.0 because my old build had vulnerabilities I didn't account for. That all being said, I am at least getting *things* to populate on a screen.
+
 ## *02OCT2018 - 10:30*:  
 
   Beginning scaffolding, attempting to modernize to latest releases of dependencies is a drag, but must be done.  
