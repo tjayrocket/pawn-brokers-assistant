@@ -1,7 +1,16 @@
+##03OCT2018 - 0800:  
+
+  Reconfiguring webpack for early dev ops.  
+  Music: The News.  
+
+  There is something to be said for stopping what you are doing, and walking away from the project. A lot has changed since the launch of webpack 4 and though they claim it does NOT require a config file - that's almost never true. I am going to try REALLY HARD to add notes where I need them, and possibly for others that may view this repo. The purpose being, and say it with me - For readability.  
+
+  Still, it reads based off the HTML file in src and once I get that up and running, I will add HTMLWebpackLoader later.
+
 ##02OCT2018 - 1630:  
 
   Integrating the new boilerplate with travis and introducing testing suite.  
-  Music: The Ramones.
+  Music: The Ramones.  
 
   My Boilerplate aged badly - integrating Webpack 4.0 because my old build had vulnerabilities I didn't account for. That all being said, I am at least getting *things* to populate on a screen.
 
