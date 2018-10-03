@@ -1,3 +1,22 @@
 body{
-  background-color: #444;
+  background-color: #D1DBBD;
+}
+
+#top-bar{
+  background-color: #3E606F;
+  height: 50px;
+}
+
+#bottom-bar{
+  position: fixed;
+  bottom: 0;
+  background-color: #3E606F;
+  height: 50px;
+}
+
+.button{
+  width: 100px;
+  height: 50px;
+  background-color:#3E606F;
+  color: #D1DBBD;
 }
