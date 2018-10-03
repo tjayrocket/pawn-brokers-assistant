@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {render} from 'react-dom';
 import TopBar from './TopBar.jsx';
-import SecondaryComponent from './SecondaryComponent.jsx';
+import Main from './Main.jsx';
 import BottomBar from './BottomBar.jsx';
 
 class App extends React.Component {
@@ -9,8 +9,7 @@ class App extends React.Component {
     return (
         <div>
           <TopBar />
-          <p> The Rise of the Machines is at hand... bitch!</p>
-          <SecondaryComponent />
+          <Main />
           <BottomBar />
         </div>
     );
@@ -18,3 +17,5 @@ class App extends React.Component {
 }
 
 render(<App/>, document.getElementById('app'));
+
+//This is the basic app building component - basically the Index of the app and REQUIRED for ANYTHING to work!

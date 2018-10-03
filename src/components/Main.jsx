@@ -1,6 +1,6 @@
 import React from 'react';
 
-class SecondaryComponent extends React.Component {
+class Main extends React.Component {
 
   constructor(props) {
     super(props);
@@ -15,7 +15,7 @@ class SecondaryComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="main">
         Likes : <span>{this.state.likesCount}</span>
         <div><button className="button" onClick={this.onLike}>Like Me</button></div>
       </div>
@@ -24,4 +24,4 @@ class SecondaryComponent extends React.Component {
 
 }
 
-export default SecondaryComponent;
+export default Main;
