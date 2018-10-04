@@ -1,13 +1,46 @@
+/* Blanket Stylings */
+
 body{
-  background-color: #D1DBBD;
+  background-color: #4CFFBE;
+}
+
+.clearfix{
+  clear: both;
 }
 
 p{
   font-family: 'Ubuntu', sans-serif;
 }
 
+.links{
+  color: #4CFFBE;
+}
+
+.button{
+  width: 192px;
+  height: 50px;
+  background-color:#4CFFBE;
+  color: #007f51;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  border: none;
+  -webkit-transition: color .2s, background-color .2s; /* Safari */
+  transition: color .2s, background-color .2s;
+}
+
+.button:hover{
+  background-color:#007f51;
+  color: #4CFFBE;
+}
+
+.baseText{
+  color: #4CFFBE;
+}
+
+/* Top Bar */
+
 #topBar{
-  background-color: #3E606F;
+  background-color: #007f51;
   height: 80px;
   text-align: center;
 }
@@ -17,45 +50,29 @@ p{
   font-size: 5em;
 }
 
+/* Main Content Area  */
+
 #main{
   max-width: 960px;
-  /* background-color: #3E606F; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.links{
-  color: #D1DBBD;
-}
+/* Bottom area */
 
 #bottomBar{
   position: fixed;
   bottom: 0;
-  background-color: #3E606F;
+  background-color: #007f51;
   height: 50px;
   text-align: center;
 }
 
-.button{
-  width: 192px;
-  height: 50px;
-  background-color:#D1DBBD;
-  color: #3E606F;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2em;
-  border: none;
-  -webkit-transition: color .2s, background-color .2s; /* Safari */
-  transition: color .2s, background-color .2s;
-}
+/* Loan Stylings */
 
-.button:hover{
-  background-color:#3E606F;
-  color: #D1DBBD;
-}
-
-.baseText{
-  color: #D1DBBD;
+baseLoan{
+  display: inline-block;
 }
 
 .loanDiv{
@@ -64,7 +81,7 @@ p{
   width: 150px;
   height: 150px;
   background-color: #fff;
-  border: solid 10px #3E606F;
+  border: solid 10px #007f51;
   border-radius: 150px;
 }
 
@@ -73,9 +90,37 @@ p{
   padding-top: 30%;
 }
 
+#loanAmount{
+  margin: 5px;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: solid 10px #007f51;
+  border-radius: 400px;
+}
+
+#loanArea{
+  clear: both;
+}
+
+.rightBlock{
+  width: 200px;
+  height: 75px;
+  margin: 5px;
+  background-color: #fff;
+  border: solid 10px #007f51;
+}
+
+/* Layaway Stylings */
+
+/* Computer Stylings */
+
+/* Firearm STylings */
+
+/* FAQ Stylings */
+
+/* General Notes */
+
 /* Color base
-darkest: #193441
-dark: #3E606F
-middle: #91AA9D
-light: #D1DBBD
-lightest: #FCFFF5 */
+dark: #007f51
+light: #4CFFBE */
