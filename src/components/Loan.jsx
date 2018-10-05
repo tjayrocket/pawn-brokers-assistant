@@ -29,22 +29,20 @@ class Loan extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="loan">
         <form onSubmit={this.handleSubmit}>
           <label>
-            Please Enter Your Loan Amount:
+            <p className="subText">Please Enter Your Loan Amount:</p>
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Submit" />
         </form>
-        <div id="baseLoan" className="clearfix">
-          <div id="loanAmount"></div>
-          <div id="loanRatesBlock">
-            <div id="interestRate" className="rightBlock"></div>
-            <div id="processingFee" className="rightBlock"></div>
-            <div id="storageFee" className="rightBlock"></div>
-          </div>
-        </div>>
+        <div id="loanAmount"></div>
+        <div id="loanRatesBlock">
+          <div id="interestRate" className="rightBlock"></div>
+          <div id="processingFee" className="rightBlock"></div>
+          <div id="storageFee" className="rightBlock"></div>
+        </div>
         <span id="loanArea">
           <div id="loanOne" className="loanDiv">
             <p id="loanOneText" className="loanText">$0.00</p>

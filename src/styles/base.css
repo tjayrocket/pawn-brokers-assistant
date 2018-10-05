@@ -37,6 +37,10 @@ p{
   color: #4CFFBE;
 }
 
+.subText{
+  color: #007F51
+}
+
 /* Top Bar */
 
 #topBar{
@@ -71,8 +75,15 @@ p{
 
 /* Loan Stylings */
 
+#loan{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 baseLoan{
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .loanDiv{
@@ -91,20 +102,17 @@ baseLoan{
 }
 
 #loanAmount{
+  margin-left: auto;
+  margin-right: auto;
   margin: 5px;
-  width: 400px;
-  height: 400px;
+  height: 200px;
   background-color: #fff;
   border: solid 10px #007f51;
-  border-radius: 400px;
-}
-
-#loanArea{
-  clear: both;
 }
 
 .rightBlock{
-  width: 200px;
+  display: inline-block;
+  width: 250px;
   height: 75px;
   margin: 5px;
   background-color: #fff;
