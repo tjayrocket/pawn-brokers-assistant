@@ -14,16 +14,21 @@ class Loan extends React.Component {
     this.setState({value: event.target.value});
   }
 
-  
+  // This fires off when I hit submit. The goal is to add the necessary logic top populate the screen with accurate numbers. This iwll take a bit but most of the logic has been recycled from the other repo.
 
   handleSubmit(event) {
-    alert('Your loan amount is: ' + this.state.value);
     event.preventDefault();
 
+    //Just For verification purposes. Will recycle this for number validation later.
+    alert('Your loan amount is: ' + this.state.value);
+
+    //This sets the base amount to a localized variable. Handy for later.
     let amount = this.state.value;
 
+    //Grabs the first circle area.
     let blockOne = document.getElementById('loanOneText');
 
+    // Places the amount into the circle.
     blockOne.innerHTML = '$' + parseInt(amount).toFixed(2);
   }
 

@@ -1,9 +1,24 @@
+## 05OCT2018  
+
+  Finalizing loan functionality and adding improved notes.  
+  Music: None.  
+
+  Busy day but hoping that I can reconfigure the old logic into this loan file and make the screen shine. I attempted a color-palette change but, being colorblind doesn't help. Had to go to 'The Boss' to get an idea of a good color scheme. That and this ongoing seasonal cold, I feel like hell but trucking on.  
+
+  I think the logic and supplementing of the layaway will be easier, but I am using a LOT of ugly code that I want to refactor into something a bit more elegant before I release this into the wild... to soar free.  
+
+  React has made making this app much less of a hassle, outside of setting up my dev environment, but nothing ventured, nothing gained.  
+
+  Just now thinking of making the Nav Menu it's own component to control the main body area. Must remeber that later!  
+
+  More to come / T.Jay
+
 ## 03OCT2018 - 0800:  
 
   Upgraded to Version 0.2.0  
   Music: Joe Rogan Podcast  
 
-  It's safe to say that since react is compiling and webpack is building and populating, I have hit version 0.2.0 The next step is to add the loan functionality and eventually layawy as well.  
+  It's safe to say that since react is compiling and webpack is building and populating, I have hit version 0.2.0 The next step is to add the loan functionality and eventually layaway as well.  
 
 ## 03OCT2018 - 0800:  
 
