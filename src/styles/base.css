@@ -38,7 +38,8 @@ p{
 }
 
 .subText{
-  color: #007F51
+  color: #007F51;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Top Bar */
@@ -77,26 +78,102 @@ p{
 
 /* These need to be reassigned and organized to a better name space. */
 
+/* Base Stylings */
+
 #loan{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Form Stylings */
+
 #loanInput{
-  width: 20%;
+  width: 10%;
 }
+
+.loanSelect{
+  width: 10%;
+}
+
 
 #loanSubmit{
   width: 10%;
+  height: 30px;
   background-color: #007f51;
   border: 1px solid #007f51;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #loanSubmit:hover{
   background-color: #4CFFBE;
 }
 
+/* Main Amount Stylings */
+
+#loanAmount{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 75%;
+  height: 100px;
+  border: 10px solid #007f51;
+}
+
+#loanOneRate{
+  padding-top: 10px;
+  font-size: 4em;
+}
+
+/* Rate Stylings */
+
+#loanRatesBlock{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loanRates{
+  float: left;
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 170px;
+  height: 100px;
+  background-color: #fff;
+  border: 10px solid #007f51;
+}
+
+.loanRateNumber{
+  font-size: 2em;
+  padding-top: 15px;
+}
+
+/* Amount Stylings */
+
+#loanAmounts{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.loanAmount{
+  float: left;
+  margin-top: 10px;
+  background-color: #fff;
+  width: 172px;
+  height: 172px;
+  border-radius: 172px;
+  border: 10px solid #007f51;
+}
+
+.loanAmountText{
+  padding-top: 20%;
+}
+
+.loanAmountNumber{
+  font-size: 2em;
+  padding-top: 15px;
+}
 
 /* Layaway Stylings */
 
