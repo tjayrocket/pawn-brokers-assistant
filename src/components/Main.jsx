@@ -4,6 +4,7 @@ import Layaway from './Layaway.jsx';
 import Computer from './Computer.jsx';
 import Firearm from './Firearm.jsx';
 import Faq from './FAQ.jsx';
+import BasicExample from './Scratch.jsx';
 
 class Main extends React.Component {
 
@@ -42,7 +43,8 @@ class Main extends React.Component {
           <button className="button" onClick={ this.faqClicked }>F.A.Q.</button>
         </span>
         {/* <Faq /> */}
-        <Loan />
+        {/* <Loan /> */}
+        <BasicExample />
       </div>
     );
   }
