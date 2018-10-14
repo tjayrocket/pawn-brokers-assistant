@@ -1,69 +1,70 @@
-//This file is a place holder for planned functional options.
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-//Form example.
+const BasicExample = () => (
+  <Router>
+    <div>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/topics">Topics</Link>
+        </li>
+      </ul>
 
-import React from 'react';
+      <hr />
 
-class Main extends React.Component {
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/topics" component={Topics} />
+    </div>
+  </Router>
+);
 
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
+);
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+const About = () => (
+  <div>
+    <h2>About</h2>
+  </div>
+);
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
+const Topics = ({ match }) => (
+  <div>
+    <h2>Topics</h2>
+    <ul>
+      <li>
+        <Link to={`${match.url}/rendering`}>Rendering with React</Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/components`}>Components</Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
+      </li>
+    </ul>
 
-  handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
+    <Route path={`${match.path}/:topicId`} component={Topic} />
+    <Route
+      exact
+      path={match.path}
+      render={() => <h3>Please select a topic.</h3>}
+    />
+  </div>
+);
 
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-    );
-  }
-}
+const Topic = ({ match }) => (
+  <div>
+    <h3>{match.params.topicId}</h3>
+  </div>
+);
 
-export default Main;
-
-//Basic Function example.
-
-import React from 'react';
-
-class Main extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {likesCount : 0};
-    this.onLike = this.onLike.bind(this);
-  }
-
-  onLike () {
-    let newLikesCount = this.state.likesCount + 1;
-    this.setState({likesCount: newLikesCount});
-  }
-
-  render() {
-    return (
-      <div id="main">
-        Likes : <span>{this.state.likesCount}</span>
-        <div><button className="button" onClick={this.onLike}>Like Me</button></div>
-      </div>
-    );
-  }
-
-}
-
-export default Main;
+export default BasicExample;

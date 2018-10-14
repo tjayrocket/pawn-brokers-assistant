@@ -4,6 +4,7 @@ import Layaway from './Layaway.jsx';
 import Computer from './Computer.jsx';
 import Firearm from './Firearm.jsx';
 import Faq from './FAQ.jsx';
+import BasicExample from './Scratch.jsx';
 
 class Main extends React.Component {
 
@@ -43,6 +44,7 @@ class Main extends React.Component {
         </span>
         {/* <Faq /> */}
         <Loan />
+        {/* <BasicExample /> */}
       </div>
     );
   }

@@ -185,7 +185,6 @@ class Loan extends React.Component {
     
     // This final function call knocks down the dominoes...
     postData();
-    
   };
   
   // This down here - it renders everything to the page.
