@@ -43,8 +43,8 @@ class Main extends React.Component {
           <button className="button" onClick={ this.faqClicked }>F.A.Q.</button>
         </span>
         {/* <Faq /> */}
-        {/* <Loan /> */}
-        <BasicExample />
+        <Loan />
+        {/* <BasicExample /> */}
       </div>
     );
   }
