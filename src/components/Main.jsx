@@ -46,6 +46,7 @@ class Main extends React.Component {
           <button className="button" onClick={ this.faqClicked }>F.A.Q.</button>
         </span>
         <div id="content">
+          <Loan />
         </div>
       </div>
     );
