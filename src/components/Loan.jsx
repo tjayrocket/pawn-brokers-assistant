@@ -62,7 +62,7 @@ class Loan extends React.Component {
       }
     };
 
-    // This funtion takes in the amount and determines both the Interest Rate and Processing Fee.
+    // This funtion takes in the amount and determines both the Interest Rate and Processing Fee. This is based of the RCW information.
 
     let processingInterest = function(amount){
       if(amount <= 4.99){

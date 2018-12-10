@@ -13,8 +13,10 @@ class Main extends React.Component {
     super(props);
   }
 
-  loanClicked(){
-    alert('This functionality is NOT ready yet - please be patient.');
+  loanClicked(props){
+    // alert('This functionality is NOT ready yet - please be patient.');
+    let content = document.getElementById('content');
+    console.log(content);
   };
 
   layawayClicked(){
@@ -43,9 +45,8 @@ class Main extends React.Component {
           <button className="button" onClick={ this.firearmClicked }>Firearm</button>
           <button className="button" onClick={ this.faqClicked }>F.A.Q.</button>
         </span>
-        {/* <Faq /> */}
-        <Loan />
-        {/* <BasicExample /> */}
+        <div id="content">
+        </div>
       </div>
     );
   }
