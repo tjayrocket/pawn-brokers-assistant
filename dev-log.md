@@ -1,3 +1,7 @@
+## 10DEC2018  
+
+Time to add in the last functionality...
+
 ## 05OCT2018  
 
   Finalizing loan functionality and adding improved notes.  
